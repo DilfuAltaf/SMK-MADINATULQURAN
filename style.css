@@ -7,7 +7,6 @@
 
 .main {
   font-family: "Poppins", Sans-serif;
-
 }
 
 .main1 {
@@ -71,7 +70,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow:  1px 1px 1px rgb(238, 238, 238);
+  box-shadow: 1px 1px 1px rgb(238, 238, 238);
 }
 
 .isi {
@@ -177,7 +176,7 @@
   height: 80px;
 }
 
-.fasilitas h2{
+.fasilitas h2 {
   color: #18a558;
   font-weight: 600;
 }
@@ -202,7 +201,7 @@
 }
 
 .h3 {
-  color: #FF3131;
+  color: #ff3131;
   font-weight: 600;
 }
 
@@ -231,7 +230,7 @@
 }
 
 .tr2 {
-  background-color: #D5FFE8;
+  background-color: #d5ffe8;
 }
 
 .tr2 td {
@@ -267,7 +266,6 @@
   font-weight: 600;
 }
 
-
 .ol {
   font-size: 18px;
   margin-block: 20px;
@@ -279,8 +277,7 @@
 }
 
 .li-ol {
-  margin-block: 
-  24px;
+  margin-block: 24px;
 }
 
 .main-bawah {
@@ -292,7 +289,7 @@
 }
 
 .main-bawah::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -377,7 +374,7 @@ footer {
 .satuan a {
   text-decoration: none;
   color: #fff;
-  display: flex; 
+  display: flex;
   align-items: center;
 }
 
@@ -408,86 +405,178 @@ hr {
 /* ---------------------------------------------------------responsive---------------------------------------------------- */
 
 @media (max-width: 426px) {
-    .div-main {
-        flex-direction: column-reverse;
-        padding-block: 10px;
-        padding-inline: 2px;
-    }
-    .div-h1 h1 {
-      font-size: 26px;
-    }
-    .div-img img {
-      display: flex;
-      justify-content: center;
-      width: 238px;
-      height: 176px;
-    }
-    .div-p {
-        font-size: 14px;
-    }
-    button {
-        height: 50px;
-        width: 50px
-    }
-    .isi img {
-      width: 31px;
-      height: 31px;
-    }
-    .isi p {
-      font-size: 16px;
-      margin-left: 1px;
-    }
-    .pelajaran {
-      flex-wrap: wrap;
-    }
-    .tentang {
-      flex-direction: column;
-    }
-    .gambar img {
-      width: 280px;
-      height: 171px;
-      padding-left: 1px;
-    }
-    .partner-1 img {
-      width: 140px;
-      height: 52px;
-    }
-    .partner-2 img {
-      width: 80px;
-      width: 80px;
-    }
-    .partner-3 img {
-      width: 160px;
-      height: 70px;
-    }
-    .partner-4 img {
-      width: 160px;
-      height: 70px;
-    }
-    .partner-5 img {
-      width: 140px;
-      height: 51px;
-    }
-    .partner-6 img {
-      width: 120px;
-      height: 48px;
-    }
-    .partner-7 img {
-      width: 140px;
-      height: 31px;
-    }
+  .div-main {
+    flex-direction: column-reverse;
+    padding-block: 10px;
+    padding-inline: 2px;
+  }
+  .div-h1 h1 {
+    font-size: 26px;
+  }
+  .div-img img {
+    display: flex;
+    justify-content: center;
+    width: 238px;
+    height: 176px;
+  }
+  .div-p {
+    font-size: 14px;
+  }
+  button {
+    height: 50px;
+    width: 50px;
+  }
+  .pelajaran {
+    flex-direction: row;
+  }
+  .isi {
+    width: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+  .isi img {
+    width: 31px;
+    height: 31px;
+  }
+  .isi p {
+    font-size: 16px;
+    margin-left: 1px;
+  }
+  .pelajaran {
+    flex-wrap: wrap;
+  }
+  .tentang {
+    flex-direction: column;
+  }
+  .gambar img {
+    width: 280px;
+    height: 171px;
+    padding-left: 1px;
+  }
+  .partner-1 img {
+    width: 140px;
+    height: 52px;
+  }
+  .partner-2 img {
+    width: 80px;
+    width: 80px;
+  }
+  .partner-3 img {
+    width: 160px;
+    height: 70px;
+  }
+  .partner-4 img {
+    width: 160px;
+    height: 70px;
+  }
+  .partner-5 img {
+    width: 140px;
+    height: 51px;
+  }
+  .partner-6 img {
+    width: 120px;
+    height: 48px;
+  }
+  .partner-7 img {
+    width: 140px;
+    height: 31px;
+  }
 }
 
 @media (min-width: 426px) and (max-width: 768px) {
-    .div-main {
-        flex-direction: column-reverse;
-        padding-block: 10px;
-    }
-    .div-p {
-        font-size: 20px;
-    }
-    button {
-        height: 50px;
-        width: 50px
-    }
+  .div-main {
+    flex-direction: column-reverse;
+    padding-block: 10px;
+    padding-inline: 2px;
+  }
+  .div-h1 h1 {
+    font-size: 26px;
+  }
+  .div-img img {
+    display: flex;
+    justify-content: center;
+    width: 238px;
+    height: 176px;
+  }
+  .div-p {
+    font-size: 14px;
+  }
+  button {
+    height: 50px;
+    width: 50px;
+  }
+  .pelajaran {
+    flex-direction: row;
+  }
+  .box {
+    width: 300px;
+  }
+  .isi {
+    width: 20px;
+    flex-direction: column;
+  }
+  .isi img {
+    width: 31px;
+    height: 31px;
+  }
+  .isi p {
+    font-size: 16px;
+    margin-left: 1px;
+  }
+  .pelajaran {
+    flex-wrap: wrap;
+  }
+  .tentang {
+    flex-direction: column;
+  }
+  .gambar img {
+    width: 280px;
+    height: 171px;
+    margin-inline: 20px;
+  }
+  .partner-1 img {
+    width: 140px;
+    height: 52px;
+    margin-inline: 20px;
+  }
+  .partner-2 img {
+    width: 80px;
+    width: 80px;
+    margin-inline: 20px;
+  }
+  .partner-3 img {
+    width: 160px;
+    height: 70px;
+    margin-inline: 20px;
+  }
+  .partner-4 img {
+    width: 160px;
+    height: 70px;
+    margin-inline: 20px;
+  }
+  .partner-5 img {
+    width: 140px;
+    height: 51px;
+    margin-inline: 20px;
+  }
+  .partner-6 img {
+    width: 120px;
+    height: 48px;
+    margin-inline: 20px;
+  }
+  .partner-7 img {
+    width: 140px;
+    height: 31px;
+    margin-inline: 20px;
+  }
+  .partner-partner {
+    flex-direction: column;
+  }
+  .perempat {
+    flex-direction: column;
+  }
+  .keseluruhan {
+    flex-direction: column;
+    margin-block: 20px;
+  }
 }
