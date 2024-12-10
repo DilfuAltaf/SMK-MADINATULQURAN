@@ -411,7 +411,7 @@ hr {
     .div-main {
         flex-direction: column-reverse;
         padding-block: 10px;
-        padding-inline: 5px;
+        padding-inline: 2px;
     }
     .div-h1 h1 {
       font-size: 26px;
@@ -428,6 +428,53 @@ hr {
     button {
         height: 50px;
         width: 50px
+    }
+    .isi img {
+      width: 31px;
+      height: 31px;
+    }
+    .isi p {
+      font-size: 16px;
+      margin-left: 1px;
+    }
+    .pelajaran {
+      flex-wrap: wrap;
+    }
+    .tentang {
+      flex-direction: column;
+    }
+    .gambar img {
+      width: 280px;
+      height: 171px;
+      padding-left: 1px;
+    }
+    .partner-1 {
+      width: 140px;
+      height: 52px;
+    }
+    .partner-2 {
+      width: 80px;
+      width: 80px;
+    }
+    .partner-3 {
+      width: 160px;
+      height: 70px;
+    }
+    .partner-4 {
+      width: 160px;
+      height: 70px;
+    }
+    .partner-5 {
+      width: 140px;
+      height: 51px;
+    }
+    .partner-6 {
+      width: 120px;
+      height: 48px;
+    }
+    .partner-7 {
+      width: 140px;
+      height: 31px;
     }
 }
 
