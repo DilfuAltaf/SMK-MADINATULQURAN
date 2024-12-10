@@ -482,7 +482,6 @@ hr {
     .div-main {
         flex-direction: column-reverse;
         padding-block: 10px;
-        padding-inline: 5px;
     }
     .div-p {
         font-size: 20px;
