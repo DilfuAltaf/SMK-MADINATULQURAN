@@ -509,7 +509,8 @@ hr {
     flex-direction: row;
   }
   .box {
-    width: 300px;
+    width: 149px;
+    justify-content: center;
   }
   .isi {
     width: 20px;
@@ -522,6 +523,7 @@ hr {
   .isi p {
     font-size: 16px;
     margin-left: 1px;
+    text-align: center;
   }
   .pelajaran {
     flex-wrap: wrap;
@@ -573,10 +575,16 @@ hr {
     flex-direction: column;
   }
   .perempat {
-    flex-direction: column;
+    flex-wrap: wrap;
   }
   .keseluruhan {
     flex-direction: column;
     margin-block: 20px;
+  }
+  .tabel p {
+    font-size: 10px;
+  }
+  .tabel h3 {
+    font-size: 10px;
   }
 }
