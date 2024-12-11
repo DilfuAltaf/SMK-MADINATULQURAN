@@ -10,7 +10,7 @@
 }
 
 .main1 {
-  padding-inline: 15%;
+  padding-inline: 200px;
   margin-block: 5%;
 }
 
@@ -408,7 +408,9 @@ hr {
   .div-main {
     flex-direction: column-reverse;
     padding-block: 10px;
-    padding-inline: 2px;
+  }
+  .main1 {
+    padding-inline: 0px;
   }
   .div-h1 h1 {
     font-size: 26px;
@@ -572,7 +574,7 @@ hr {
     margin-inline: 20px;
   }
   .partner-partner {
-    flex-direction: column;
+    flex-wrap: wrap;
     gap: 30px;
   }
   .perempat {
