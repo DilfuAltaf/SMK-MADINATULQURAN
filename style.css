@@ -410,7 +410,7 @@ hr {
     padding-block: 10px;
   }
   .main1 {
-    padding-inline: 0px;
+    padding-inline: 10px;
   }
   .div-h1 h1 {
     font-size: 26px;
@@ -489,6 +489,9 @@ hr {
     flex-direction: column-reverse;
     padding-block: 10px;
     padding-inline: 2px;
+  }
+  .main1 {
+    padding-inline: 20px;
   }
   .div-h1 h1 {
     font-size: 26px;
