@@ -70,7 +70,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 1px 1px 1px rgb(238, 238, 238);
+  box-shadow: 1px 1px 1px 3px rgb(238, 238, 238);
 }
 
 .isi {
@@ -430,7 +430,6 @@ hr {
     flex-direction: row;
   }
   .isi {
-    width: 20px;
     display: flex;
     flex-direction: row;
   }
@@ -439,8 +438,8 @@ hr {
     height: 31px;
   }
   .isi p {
-    font-size: 16px;
-    margin-left: 1px;
+    font-size: 14px;
+    margin-left: 0;
   }
   .pelajaran {
     flex-wrap: wrap;
@@ -495,8 +494,8 @@ hr {
   .div-img img {
     display: flex;
     justify-content: center;
-    width: 238px;
-    height: 176px;
+    width: 100%;
+    height: auto;
   }
   .div-p {
     font-size: 14px;
@@ -509,11 +508,11 @@ hr {
     flex-direction: row;
   }
   .box {
-    width: 149px;
+    width: 44%;
     justify-content: center;
+    padding: 0;
   }
   .isi {
-    width: 20px;
     flex-direction: column;
   }
   .isi img {
@@ -521,9 +520,10 @@ hr {
     height: 31px;
   }
   .isi p {
-    font-size: 16px;
+    font-size: 11px;
     margin-left: 1px;
     text-align: center;
+    padding-left: 0;
   }
   .pelajaran {
     flex-wrap: wrap;
@@ -573,6 +573,7 @@ hr {
   }
   .partner-partner {
     flex-direction: column;
+    gap: 30px;
   }
   .perempat {
     flex-wrap: wrap;
