@@ -409,7 +409,7 @@ hr {
 
 /* ---------------------------------------------------------responsive---------------------------------------------------- */
 
-@media (max-width: 480px) {
+@media (min-width: 480px) {
   .div-main {
     flex-direction: column-reverse;
     padding-block: 10px;
@@ -435,6 +435,7 @@ hr {
   }
   .pelajaran {
     flex-direction: row;
+    gap: 30px;
   }
   .box {
     width: 46%;
@@ -515,7 +516,7 @@ hr {
     text-align: center;
   }
   .semua-footer {
-    width: 1000px;
+    min-height: 500px;
   }
   .semua {
     width: auto;
