@@ -62,11 +62,9 @@
 }
 
 .box {
-  width: 25%;
+  width: 23%;
   height: 150px;
   border-radius: 12px;
-  margin-inline: 10px;
-  margin-block: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -127,6 +125,10 @@
 
 .partnernya {
   margin-block: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
 }
 
 .partner h2 {
@@ -184,6 +186,9 @@
 .perempat {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  margin-block: 30px;
+  gap: 29px;
 }
 
 .perempat p {
@@ -404,7 +409,7 @@ hr {
 
 /* ---------------------------------------------------------responsive---------------------------------------------------- */
 
-@media (max-width: 426px) {
+@media (max-width: 480px) {
   .div-main {
     flex-direction: column-reverse;
     padding-block: 10px;
@@ -418,8 +423,8 @@ hr {
   .div-img img {
     display: flex;
     justify-content: center;
-    width: 238px;
-    height: 176px;
+    width: 400px;
+    height: auto;
   }
   .div-p {
     font-size: 14px;
@@ -431,17 +436,24 @@ hr {
   .pelajaran {
     flex-direction: row;
   }
+  .box {
+    width: 46%;
+  }
+  .isinya {
+    margin-left: 0;
+  }
   .isi {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    gap: 10px;
   }
   .isi img {
-    width: 31px;
-    height: 31px;
+    width: 50px;
+    height: 50px;
   }
   .isi p {
-    font-size: 14px;
-    margin-left: 0;
+    font-size: 18px;
+    padding-left: 0;
   }
   .pelajaran {
     flex-wrap: wrap;
@@ -481,6 +493,35 @@ hr {
   .partner-7 img {
     width: 140px;
     height: 31px;
+  }
+  .partnernya {
+    justify-content: center;
+  }
+  .tabel {
+    overflow-x: auto; /* Scroll horizontal jika tabel terlalu lebar */
+  -webkit-overflow-scrolling: touch; /* Scroll lebih halus untuk perangkat sentuh */
+  }
+  .main-bawah {
+    height: 350px;
+  }
+  .pendaftaran {
+    justify-content: center;
+  }
+  .pendaftaran h2 {
+    text-align: center;
+  }
+  .pendaftaran p {
+    width: auto;
+    text-align: center;
+  }
+  .semua-footer {
+    width: 1000px;
+  }
+  .semua {
+    width: auto;
+  }
+  .keseluruhan {
+    flex-direction: column;
   }
 }
 
